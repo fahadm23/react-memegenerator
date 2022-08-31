@@ -65,24 +65,21 @@ main {
 }
 
 .meme-image {
-  max-width: 180%;
-  border-radius: 3px;
-  width: 900px;
-  min-height: 400px;
-  max-height: 400px;
+  width: 150%;
 }
 
 .meme-text {
   display: flex;
+  flex-wrap: nowrap;
   position: absolute;
-  width: 60%;
+  width: 100%;
   text-align: center;
   left: 80%;
   transform: translateX(-50%);
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
