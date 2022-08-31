@@ -65,7 +65,7 @@ main {
 }
 
 .meme-image {
-  width: 150%;
+  width: 160%;
 }
 
 .meme-text {
@@ -79,7 +79,7 @@ main {
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
-  font-size: 1.5em;
+  font-size: calc(1em + 2vw);
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
